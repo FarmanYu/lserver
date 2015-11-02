@@ -14,7 +14,7 @@ var port = program.port || 3000;
 var app = express();
 app.use(express.static(localDir));
 var server = app.listen(port, function(){
-	console.log("local dir: "+ localDir);
-	console.log("local server start at: http://localhost:" + port );
+	console.log("local start: ["+ localDir +"]");
+	console.log("server start at: http://localhost:" + port);
 	open("http://localhost:" + port);
 });
