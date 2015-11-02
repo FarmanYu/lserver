@@ -1,0 +1,6 @@
+de_modules/
+bower_components/
+*.sublime-workspace
+
+# Compiled bundles
+bundle.js

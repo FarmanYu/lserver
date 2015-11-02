@@ -1,0 +1,21 @@
+{
+  "name": "serverthis",
+  "version": "1.0.0",
+  "description": "cmd support dir for localserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "lserver": "index"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "FHY",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.3"
+  }
+}
