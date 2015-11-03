@@ -3,5 +3,5 @@
 
 ## 运行
 
-	npm install lserver -g
-	lserver -s /usr/tmp
+	npm install node-serverthis -g
+	lserver -s /usr/tmp -p 8802
