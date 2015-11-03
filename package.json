@@ -1,6 +1,6 @@
 {
   "name": "node-serverthis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cmd support dir view in localserver",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,27 @@
   "bin": {
     "lserver": "index"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farmanyu/lserver.git"
+  },
   "keywords": [
-    "node"
+    "node","express","server"
   ],
-  "author": "FHY",
-  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "author": {
+    "name": "farman",
+    "email": "yuhongfei1001@163.com",
+    "url": "http://farmanyu.github.io/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/farmanyu/lserver/blob/master/LICENSE-MIT"
+    }
+  ],
   "dependencies": {
     "commander": "^2.9.0",
     "express": "^4.13.3",
